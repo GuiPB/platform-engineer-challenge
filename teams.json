@@ -1,0 +1,52 @@
+{
+  "teams": {
+    "team-a": {
+      "users": {
+        "interna": {
+          "password": "internapassword",
+          "role": "intern"
+        },
+        "juniora": {
+          "password": "juniorapassword",
+          "role": "developer"
+        },
+        "staffa": {
+          "password": "staffapassword",
+          "role": "admin"
+        }
+      }
+    },
+    "team-b": {
+      "users": {
+        "internb": {
+          "password": "internbpassword",
+          "role": "intern"
+        },
+        "juniorb": {
+          "password": "juniorbpassword",
+          "role": "developer"
+        },
+        "staffb": {
+          "password": "staffbpassword",
+          "role": "admin"
+        }
+      }
+    },
+    "team-c": {
+      "users": {
+        "internc": {
+          "password": "interncpassword",
+          "role": "intern"
+        },
+        "juniorc": {
+          "password": "juniorcpassword",
+          "role": "developer"
+        },
+        "staffc": {
+          "password": "staffcpassword",
+          "role": "admin"
+        }
+      }
+    }
+  }
+}

@@ -7,8 +7,8 @@ services:
       - LDAP_ADMIN_PASSWORD=adminpassword
       - LDAP_ROOT=dc=example,dc=org
       - LDAP_ADMIN_DN=cn=admin,dc=example,dc=org
-      - LDAP_USERS=interna,juniora,seniora,staffa,internb,juniorb,seniorb,staffb
-      - LDAP_PASSWORDS=internapassword,juniorapassword,seniorapassword,staffapassword,internbpassword,juniorbpassword,seniorbpassword,staffbpassword
+      - LDAP_USERS=${LDAP_USERS}
+      - LDAP_PASSWORDS=${LDAP_PASSWORDS}
     ports:
       - "1389:1389"
       - "1636:1636"
